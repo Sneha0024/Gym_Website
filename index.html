@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sneha's fitness</title>
+    <link rel="stylesheet" media="screen and (max-width: 772px")
+    href="phone.css">
+    
+
+
+<style>
+/* css reset */
+    body 
+    {
+    
+        margin: 0vw;
+        padding: 0vw;
+background-image: url(gym-bg.jpeg);  
+background-repeat: no-repeat;
+background-size: cover;
+  }
+
+.left{
+    position: absolute;
+    left: 0vw;
+    top: 0px;
+    display: inline;
+   border: 1vw solid rebeccapurple;
+   height: 17vw;
+   width: 13vw;
+}
+.mid{
+    display: block;
+    width: 50vw;
+     margin:  auto; /* for bringing text into centre */
+}
+.right{
+    position:absolute;
+    right: 3vw;
+    top: 0vw;
+    display: inline;
+    }
+.navbar
+{
+display:inline-block;
+
+}
+.navbar li{
+    display:inline-block;
+    font-size: 2.5vw;
+    
+}
+.navbar li a{
+    color: rgb(231, 203, 203);
+    padding: 1.6vw 1.3vw;
+    text-decoration: none;
+}
+.navbar li a:hover , .navbar li a.active
+{
+    text-decoration: underline;
+    color: rgb(153, 230, 176);
+}
+.left img
+{
+    width: 13vw;
+    height: 10vw;
+    /* filter:invert(100%); this function is used to covert 
+    black color to white & white color to black */
+}
+.left div
+{
+    text-align: center;
+    color:rgb(219, 223, 240);
+    font-size: 2vw;
+}
+.btn
+{
+    margin: 0vw 0.9vw;
+    background-color: black;
+    color:white;
+    padding: 0.8vw 1vw;
+    border: 2px solid grey;
+    border-radius: 1vw;
+    font-size: 2vw;
+    cursor: pointer;
+}
+.btn:hover
+{
+background-color: grey;
+}
+.container
+{
+
+    margin: 10vw 8vw;
+    padding: 70vw 7.2vw;
+    width: 33%;
+    border-radius: 2vw;
+}
+.form-group input
+{
+    text-align: center;
+    display: block;
+    width: 30vw;
+    padding: 0.4vw;
+    border: 0.2vw solid black;
+    margin: 1.3vw auto;
+    font-size: 1.5vw;
+    border-radius: 0.8vw;
+}
+.container h1
+{
+    text-align: center;
+    color: aliceblue;
+    font-size: 5vw;
+}
+.container button
+{
+    
+    display: block;
+    width: 50%;
+    margin: auto;
+}
+
+</style>
+</head>
+
+<body>
+
+   
+    <header class="header">
+        <div class="left">
+      <img src="gymlogo.jpg" alt="" height="12vw"
+      width="15vw">
+      <div>sneha fitness</div>
+      <div>center</div> 
+<!--left box for logo-->
+
+        </div>
+        <div class="mid">
+             <ul class="navbar">
+                <li><a href="#" class="active">home</a></li>
+                <li><a href="#">about us</a></li>
+                <li><a href="#">services</a></li>
+                <li><a href="#">contact us</a></li>
+                </ul>
+            
+<!--mid box for nav bar-->
+
+        </div>
+        <div class="right">
+            <button class="btn">Call us now</button>
+            <button class="btn">Email us</button>
+<!--right box for buttons-->
+
+        </div>
+    </header>
+    <div class="container">
+    <h1>join the best gym now!!</h1>
+    <form action="noaction.php">
+        <div class="form-group">
+            <input type="text" name="" placeholder="enter your name">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="enter your Mobile.no">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="enter your email">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="enter your city">
+        </div>
+    
+        <button class="btn">submit</button>
+    </form>
+</div>
+    </body>
+</html>
